@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 import { keyframes } from 'styled-components'
+import VideoStyled from './Video'
 
 export default function FirstScreen() {
   return (
     <>
-      <VideoStyled loop muted name="media" autoPlay={true}>
-          <source src="/video/6.mp4" type="video/mp4" />
-      </VideoStyled>
+      <VideoStyled />
       <Section id="home">
         <HomeOverlay />
         <StyledTel>
@@ -31,15 +30,6 @@ export default function FirstScreen() {
     </>
   )
 }
-
-const VideoStyled = styled.video`
-    width: 100%;
-    height: calc(100vw / 1.7777);
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 0.1;
-`;
 
 const Section = styled.section`
     background-color: #222;
