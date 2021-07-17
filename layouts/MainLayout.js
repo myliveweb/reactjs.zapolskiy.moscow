@@ -2,6 +2,12 @@ import Head from 'next/head'
 import FirstScreen from '../components/FirstScreen'
 import Header from '../components/Header'
 import Services from '../components/Services'
+import Portfolio from '../components/Portfolio'
+import Skills from '../components/Skills'
+import Calltoaction from '../components/Calltoaction'
+import Testimonials from '../components/Testimonials'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 export default function MainLayout({ children, title }) {
   return (
@@ -26,6 +32,12 @@ export default function MainLayout({ children, title }) {
       <FirstScreen />
       <Header />
       <Services />
+      <Portfolio />
+      <Skills />
+      <Calltoaction />
+      <Testimonials />
+      <Contact />
+      <Footer />
       <main>
         {children}
       </main>

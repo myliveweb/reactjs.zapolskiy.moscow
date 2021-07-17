@@ -18,10 +18,11 @@ export default function Services() {
               <h2 className="pfblock-title">Что могу предложить?</h2>
               <div className="pfblock-line"></div>
               <div className="pfblock-subtitle">
-                Fullstack Web разработчик. Работаю исключительно на результат.<br />
-                <b>Back-end:</b> Node.js<StyledSpan>,</StyledSpan> Express/Micro<StyledSpan>,</StyledSpan> RESTfull/GraphQL/Sequelize<StyledSpan>,</StyledSpan> БД MySQL/PostreSQL/MongoDB<StyledSpan>.</StyledSpan><br />
-                <b>Front-end:</b> React.js/Redux/Saga/Next<StyledSpan>,</StyledSpan> Vue.js/Vuex/Nuxt<StyledSpan>,</StyledSpan> TypeScript<StyledSpan>,</StyledSpan> MaterialUI<StyledSpan>,</StyledSpan> Webpack<StyledSpan>,</StyledSpan> Babel<StyledSpan>,</StyledSpan><br />
-                Гибкий и безопасный подход (Git, Docker).
+							<b>Fullstack</b> Web разработчик. Работаю на результат. Ответственный подход к решению ваших задач.<br />
+              <b>Back-end:</b> Node.js/Express, PHP/Laravel, RESTfull/GraphQL, MySQL/PostgreSQL/MongoDB.<br />
+              <b>Front-end:</b> Angular 12, React.js/Redux/Next, Vue.js/Vuex/Nuxt, TypeScript/ES6+.<br />
+							<b>Мобильная разработка:</b> React Native, Flutter (Android, iPhone)<br />
+              Гибкий и безопасный подход (Git, Docker), CI/CD.<br />
               </div>
             </div>
 
