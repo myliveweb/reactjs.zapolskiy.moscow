@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import FirstScreen from '../components/FirstScreen'
+import Header from '../components/Header'
+import Services from '../components/Services'
 
 export default function MainLayout({ children, title }) {
   return (
@@ -14,15 +16,16 @@ export default function MainLayout({ children, title }) {
 	      <link rel="icon" href="/assets/images/favicon/favicon.ico" />
 	      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon-180x180.png" />
         <title>{title}</title>
+        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"></link>
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen"></link>
+        <link href="assets/css/simple-line-icons.min.css" rel="stylesheet" media="screen"></link>
+        <link href="assets/css/animate.min.css" rel="stylesheet"></link>
+        <link href="assets/css/style.css" rel="stylesheet" media="screen"></link>
         <script async src="/assets/js/modernizr.custom.min.js"></script>
       </Head>
-      <div id="preloader">
-        <div id="status"></div>
-      </div>
       <FirstScreen />
-      <nav>
-        <h1>NAVIGATION</h1>
-      </nav>
+      <Header />
+      <Services />
       <main>
         {children}
       </main>

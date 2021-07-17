@@ -114,6 +114,7 @@ const StyledH1 = styled.h1`
     letter-spacing: 5px;
     margin: 5px 0 5px;
     font-weight: 800;
+    color: #ffffff;
 `;
 
 const ScrollDown = styled.div`
