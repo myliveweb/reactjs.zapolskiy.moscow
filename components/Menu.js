@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+// Проверка
 import MenuItem from './MenuItem';
 
 const Ul = styled.ul`
