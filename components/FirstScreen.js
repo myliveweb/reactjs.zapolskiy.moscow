@@ -64,7 +64,7 @@ const StyledTel = styled.div`
     position: absolute;
     top: 30px;
     right: 60px;
-    font-size: 3rem;
+    font-size: 3em;
 `;
 
 const StyledTelB = styled.b`

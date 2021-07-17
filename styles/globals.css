@@ -721,8 +721,8 @@ h3 {
 }
 
 #home {
-  background: url(../public/assets/images/cover.webp);
-  background-color: #222;
+  /*background: url(../public/assets/images/cover.webp);*/
+  background-color: #333;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 50%;

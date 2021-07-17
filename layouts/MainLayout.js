@@ -8,6 +8,7 @@ import Calltoaction from '../components/Calltoaction'
 import Testimonials from '../components/Testimonials'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import ScrollUp from '../components/ScrollUp'
 
 export default function MainLayout({ children, title }) {
   return (
@@ -38,9 +39,18 @@ export default function MainLayout({ children, title }) {
       <Testimonials />
       <Contact />
       <Footer />
-      <main>
-        {children}
-      </main>
+      <ScrollUp />
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.min.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/jquery.sticky.min.js"></script>
+	<script src="assets/js/smoothscroll.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.easypiechart.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/jquery.cbpQTRotator.min.js"></script>
+	<script src="assets/js/custom.js"></script>
     </>
   )
 }

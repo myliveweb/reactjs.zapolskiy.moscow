@@ -1,11 +1,3 @@
-import styled from 'styled-components';
-
-const StyledSpan = styled.span`
-  font-weight: 700;
-  font-size: 19px;
-  color: #000000;
-`;
-
 export default function Services() {
   return (
     <section id="services" className="pfblock pfblock-gray">
