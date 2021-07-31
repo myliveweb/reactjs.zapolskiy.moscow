@@ -8,7 +8,8 @@ export default function FirstScreen() {
       <VideoStyled />
 	    <section id="home" className="pfblock-image screen-height">
         <div className="home-overlay"></div>
-        <div style={{position: 'absolute', top: '30px', right: '60px', fontSize: '3em'}}>Тел: <b>+7 962 206-4142</b></div>
+        <div className="home-top-panel-ver">React.js (Base Next.js SSR)</div>
+        <div className="home-top-panel-tel">Тел: <b>+7 962 206-4142</b></div>
         <div className="main-face" style={{margin: '0 auto', width: '250px', position: 'relative', top: '20%'}}>
           <div id="mi_face"></div>
         </div>

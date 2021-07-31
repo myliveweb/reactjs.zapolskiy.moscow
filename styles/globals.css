@@ -424,7 +424,17 @@ h3 {
 .navbar-custom .navbar-nav>li>a {
   font-size: 12px;
   letter-spacing: 3px;
-  color: #222
+  color: #222;
+  padding: 17px 15px 13px 15px;
+}
+
+.navbar-custom .navbar-nav>li {
+  border-bottom: 4px solid #ffffff;
+  height: 50px;
+}
+
+.navbar-custom .navbar-nav>li.active {
+  border-bottom: 4px solid #ff5252;
 }
 
 .navbar-custom .navbar-brand {
@@ -548,5 +558,21 @@ h3 {
 
   #portfolio {
     background-color: #ffffff;
+  }
+
+  #home .home-top-panel-ver {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-size: 1.5em;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+  }
+
+  #home .home-top-panel-tel {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    font-size: 3em;
   }
 
