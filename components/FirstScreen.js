@@ -6,27 +6,25 @@ export default function FirstScreen() {
   return (
     <>
       <VideoStyled />
-      <Section id="home">
-        <HomeOverlay />
-        <StyledTel>
-          Тел: <StyledTelB>+7 962 206-4142</StyledTelB>
-        </StyledTel>
-        <MainFace>
-          <MyFace id="mi_face"></MyFace>
-        </MainFace>
-        <Intro>
-          <Start>Сергей Запольский</Start>
-          <StyledH1>Разработка сайтов</StyledH1>
-          <Start>Решения будущего сегодня</Start>
-        </Intro>
+	    <section id="home" className="pfblock-image screen-height">
+        <div className="home-overlay"></div>
+        <div style={{position: 'absolute', top: '30px', right: '60px', fontSize: '3em'}}>Тел: <b>+7 962 206-4142</b></div>
+        <div className="main-face" style={{margin: '0 auto', width: '250px', position: 'relative', top: '20%'}}>
+          <div id="mi_face"></div>
+        </div>
+        <div className="intro">
+          <div className="start">Сергей Запольский</div>
+          <h1>РАЗРАБОТКА САЙТОВ</h1>
+          <div className="start">Решения будущего сегодня</div>
+        </div>
         <a href="#services">
-          <ScrollDown>
-            <ScrollDownSpan>
-              <StyledI />
-            </ScrollDownSpan>
-          </ScrollDown>
+		      <div className="scroll-down">
+            <span>
+                <i className="fa fa-angle-down fa-2x"></i>
+            </span>
+		      </div>
         </a>
-      </Section>
+	    </section>
     </>
   )
 }

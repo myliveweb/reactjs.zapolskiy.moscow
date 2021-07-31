@@ -30,6 +30,9 @@ export default function MainLayout({ children, title }) {
         <link href="assets/css/style.css" rel="stylesheet" media="screen"></link>
         <script async src="/assets/js/modernizr.custom.min.js"></script>
       </Head>
+      <div id="preloader">
+		    <div id="status"></div>
+	    </div>
       <FirstScreen />
       <Header />
       <Services />

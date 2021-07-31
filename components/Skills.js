@@ -16,11 +16,9 @@ const Skills = () => {
                                 <h2 className="pfblock-title">Навыки</h2>
                                 <div className="pfblock-line"></div>
                                 <div className="pfblock-subtitle">
-                                  <b>JavaScript</b> - ES6+, TypeScript, Node.js, React.js/Redux/Saga/Next, Vue.js/Vuex/Nuxt<br />
-                                	<b>Все современные фреймворки и CMS</b> - перечислять нет смысла<br />
-                                	<b>Полный Битрикс стек</b> - PHP, SQL, Bitrix API + всякие сертификаты их много<br />
-                                	<b>Data mining (сбор и анализ данных, BigData)</b> - Go, Python, Rust<br />
-                                	<b>Мобильная разработка</b> - Flutter (Android, iPhone)
+                                  <b>JavaScript</b> - ES6+, TypeScript, Angular, React.js/Redux/Saga/Next, Vue.js/Vuex/Nuxt<br />
+                                  <b>Мобильная разработка</b> - React Native, Flutter (Android, iPhone)<br />
+                                  <b>Back-end</b> - Node.js, PHP, Python, RESTfull/GraphQL, БД MySQL/PostgreSQL/MongoDB
                                 </div>
                             </div>
 
@@ -38,13 +36,13 @@ const Skills = () => {
 						<span data-percent="200" className="chart easyPieChart" style={{width: '140px', height: '140px', lineHeight: '140px'}}>
                             <span className="percent">200</span>
                         </span>
-						<h3 className="text-center">Дизайн</h3>
+						<h3 className="text-center">React</h3>
 					</div>
 					<div className="col-sm-6 col-md-3 text-center">
-						<span data-percent="110" className="chart easyPieChart" style={{width: '140px', height: '140px', lineHeight: '140px'}}>
-                            <span className="percent">110</span>
+						<span data-percent="250" className="chart easyPieChart" style={{width: '140px', height: '140px', lineHeight: '140px'}}>
+                            <span className="percent">250</span>
                         </span>
-						<h3 className="text-center">Продвижение</h3>
+						<h3 className="text-center">Back-end</h3>
 					</div>
 					<div className="col-sm-6 col-md-3 text-center">
 						<span data-percent="150" className="chart easyPieChart" style={{width: '140px', height: '140px', lineHeight: '140px'}}>

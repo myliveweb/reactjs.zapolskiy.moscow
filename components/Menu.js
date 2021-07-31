@@ -22,8 +22,8 @@ const topMenu = [
 
 export default function TopMenu() {
   return (
-    <Ul>
+    <ul className="nav navbar-nav navbar-right">
       {topMenu.map((item) => <MenuItem key={item.id} item={item} />)}
-    </Ul>
+    </ul>
   )
 }

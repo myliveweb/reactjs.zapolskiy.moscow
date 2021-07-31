@@ -23,10 +23,8 @@ const ALi = styled.a`
 
 export default function MenuItem({item}) {
   return (
-    <Li>
-      <Link href={item.link}>
-        <ALi>{item.name}</ALi>
-      </Link>
-    </Li>
+    <li>
+      <Link href={item.link} style={{fontSize: '12px'}}>{item.name}</Link>
+    </li>
   )
 }
