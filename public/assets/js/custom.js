@@ -158,19 +158,20 @@
 			}
 
 			else {
-					 $.ajax({
-							type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
-							url         : 'https://zapolskiy.moscow/assets/php/contact.php', // the url where we want to POST
-							data        : formData, // our data object
-							dataType    : 'json', // what type of data do we expect back from the server
-							encode      : true,
-							success		: function(res){
-											var ret = $.parseJSON(JSON.stringify(res));
-											response.html(ret.message).fadeIn(500);
-											yaCounter47514331.reachGoal('SUBMIT_FORM');
-											gtag('event', 'Отправка письма', {'event_category': 'stepTwo', 'event_action': 'click'});
-							}
-						});
+        $.ajax({
+          type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
+          url: 'https://zapolskiy.moscow/assets/php/contact.php', // the url where we want to POST
+          data: formData, // our data object
+          dataType: 'json', // what type of data do we expect back from the server
+          encode: true,
+          success: function (res) {
+            var ret = $.parseJSON(JSON.stringify(res));
+            $('#contact-form textarea').val('');
+            response.html('Ваше сообщение успешно отправлено').fadeIn(500);
+            yaCounter47514331.reachGoal('SUBMIT_FORM');
+            gtag('event', 'Отправка письма', { 'event_category': 'stepTwo', 'event_action': 'click' });
+          }
+        });
 				}
             	return false;
 			});
