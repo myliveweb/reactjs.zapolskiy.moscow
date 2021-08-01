@@ -5,7 +5,7 @@ const scrollHandlerMenu = (e) => {
   let el;
   topMenu.forEach(function(item, i, arr) {
     el = document.getElementById(item.topLink)
-    if(el && el.getBoundingClientRect().top - 50 <= 0) {
+    if(el && el.getBoundingClientRect().top - 150 <= 0) {
       current = item.topLink
     }
   });

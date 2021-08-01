@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import topMenu from './util/menuList';
-import scrollHandlerMenu from './util/scroll';
+import topMenu from '../util/menuList';
+import scrollHandlerMenu from '../util/scroll';
 import MenuItem from './MenuItem';
 
 export default function TopMenu() {

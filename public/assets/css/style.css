@@ -232,7 +232,7 @@ textarea.form-control {
 }
 .btn-lg:hover,
 .btn-group-lg > .btn:hover {
-  background: rgba(17, 17, 17, 1.8);
+  background: red;
   color: #fff;
 }
 
@@ -535,7 +535,7 @@ textarea.form-control {
 #footer {
   background: #222;
   text-align: center;
-  padding: 40px 0;
+  padding: 35px 0;
   color: #fff;
 }
 

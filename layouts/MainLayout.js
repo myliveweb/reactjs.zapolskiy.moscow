@@ -38,8 +38,6 @@ export default function MainLayout({ children, title }) {
       <Services />
       <Portfolio />
       <Skills />
-      <Calltoaction />
-      <Testimonials />
       <Contact />
       <Footer />
       <ScrollUp />

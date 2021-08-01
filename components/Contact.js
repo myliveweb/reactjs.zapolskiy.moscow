@@ -29,12 +29,12 @@ const Contact = () => {
 						<input type="hidden" id="c_template_url" name="c_template_url" value="" />
 						<div className="ajax-hidden">
 							<div className="form-group wow fadeInUp">
-								<label className="sr-only" for="c_name">Имя</label>
+								<label className="sr-only" htmlFor="c_name">Имя</label>
 								<input type="text" id="c_name" className="form-control" name="c_name" placeholder="Имя" />
 							</div>
 
 							<div className="form-group wow fadeInUp" data-wow-delay=".1s">
-								<label className="sr-only" for="c_email">Email</label>
+								<label className="sr-only" htmlFor="c_email">Email</label>
 								<input type="email" id="c_email" className="form-control" name="c_email" placeholder="E-mail" />
 							</div>
 
@@ -44,7 +44,7 @@ const Contact = () => {
 
 							<button type="submit" className="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Отправить сообщение</button>
 						</div>
-						<div className="ajax-response" style={{marginTop: '15px'}}></div>
+						<div className="ajax-response" style={{marginTop: '15px', color: 'green'}}></div>
 					</form>
 
 				</div>

@@ -18,6 +18,7 @@
 		$('a[href*=#]').bind("click", function(e){
 
 			var anchor = $(this);
+
 			$('html, body').stop().animate({
 				scrollTop: $(anchor.attr('href')).offset().top
 			}, 1000);
@@ -87,7 +88,9 @@
 				$( selector ).cbpQTRotator( 'destroy' );
 				*/
 
-				//$( '#cbp-qtrotator' ).cbpQTRotator();
+        
+
+				//$('#cbp-qtrotator').cbpQTRotator({speed: 700, easing: 'ease', interval: 8000});
 
 			} );
 
@@ -154,6 +157,7 @@
 
 			if (( c_name== '' || c_email == '' || c_message == '') || (!isValidEmailAddress(c_email) )) {
 				response.fadeIn(500);
+        response.css('color', 'red');
 				response.html('<i class="fa fa-warning"></i> Please fix the errors and try again.');
 			}
 
@@ -167,7 +171,11 @@
           success: function (res) {
             var ret = $.parseJSON(JSON.stringify(res));
             $('#contact-form textarea').val('');
+            response.css('color', 'green');
             response.html('Ваше сообщение успешно отправлено').fadeIn(500);
+            setTimeout(() => {
+              response.fadeOut(500);
+            }, 3000);
             yaCounter47514331.reachGoal('SUBMIT_FORM');
             gtag('event', 'Отправка письма', { 'event_category': 'stepTwo', 'event_action': 'click' });
           }
