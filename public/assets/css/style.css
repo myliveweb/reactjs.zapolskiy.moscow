@@ -800,20 +800,48 @@ textarea.form-control {
     font-size: 3em;
   }
 
+  #home .main-face {
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    top: 25%;
+  }
+
 /* ---------------------------------------------- /*
  * Media
 /* ---------------------------------------------- */
 
 @media (max-width: 810px) {
   #home .home-top-panel-ver,
-  #home .home-top-panel-react {
-    display: none;
+  #home .home-top-panel-react,
+  #home .home-top-panel-tel {
+    /*display: none;*/
+    position: relative;
+    top: 0;
+    left: 0;
+    /*width: 100%;*/
+    margin: 15px auto;
+    text-align: center;
+  }
+
+  #home .main-face {
+    top: 15px;
+  }
+
+  #home .intro {
+    position: relative;
+    top: 100px;
   }
 }
 
 @media (max-width: 767px) {
   .calltoaction {
     text-align: center;
+  }
+
+  #home .intro {
+    position: relative;
+    top: 115px;
   }
 }
 
@@ -838,7 +866,8 @@ textarea.form-control {
   }
 
   #home .home-top-panel-tel {
-    display: none;
+    /*display: none;*/
+    font-size: 2em;
   }
 }
 

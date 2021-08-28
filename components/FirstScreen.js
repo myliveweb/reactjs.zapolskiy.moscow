@@ -11,7 +11,7 @@ export default function FirstScreen() {
         <div className="home-top-panel-ver"><a href="https://zapolskiy.moscow/">Монолит (Base JQuery)</a></div>
         <div className="home-top-panel-react">React.js (Base Next.js SSR)</div>
         <div className="home-top-panel-tel">Тел: <b>+7 962 206-4142</b></div>
-        <div className="main-face" style={{margin: '0 auto', width: '250px', position: 'relative', top: '20%'}}>
+        <div className="main-face">
           <div id="mi_face"></div>
         </div>
         <div className="intro">
