@@ -1,12 +1,5 @@
 import Head from 'next/head'
-import FirstScreen from '../components/FirstScreen'
-import Header from '../components/Header'
-import Services from '../components/Services'
-import Portfolio from '../components/Portfolio'
-import Skills from '../components/Skills'
-import Calltoaction from '../components/Calltoaction'
-import Testimonials from '../components/Testimonials'
-import Contact from '../components/Contact'
+
 import Footer from '../components/Footer'
 import ScrollUp from '../components/ScrollUp'
 
@@ -33,12 +26,7 @@ export default function MainLayout({ children, title }) {
       <div id="preloader">
 		    <div id="status"></div>
 	    </div>
-      <FirstScreen />
-      <Header />
-      <Services />
-      <Portfolio />
-      <Skills />
-      <Contact />
+      { children }
       <Footer />
       <ScrollUp />
 	<script src="assets/js/jquery-1.11.1.min.js"></script>

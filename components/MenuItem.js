@@ -1,11 +1,12 @@
-import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function MenuItem({item}) {
+  const router = useRouter()
   return (
     <li>
       {item.topLink
         ? <a href={item.link} style={{fontSize: '12px'}}>{item.name}</a>
-        : <Link href={item.link} style={{fontSize: '12px'}}>{item.name}</Link>
+        : <a href={item.link} style={{fontSize: '12px'}}>{item.name}</a>
       }
     </li>
   )

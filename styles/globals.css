@@ -565,8 +565,21 @@ h3 {
     top: 40px;
     left: 60px;
     font-size: 1.5em;
-    border: 1px solid #ffffff;
     padding: 10px 15px;
+    width: 285px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #home .home-top-panel-react {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    border: 1px solid #ffffff;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    width: 285px;
+    text-align: center;
   }
 
   #home .home-top-panel-tel {
