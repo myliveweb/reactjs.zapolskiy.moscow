@@ -807,6 +807,11 @@ textarea.form-control {
     top: 25%;
   }
 
+  .copyright div {
+    display: inline-block;
+    margin: 5px;
+  }
+
 /* ---------------------------------------------- /*
  * Media
 /* ---------------------------------------------- */
@@ -866,8 +871,17 @@ textarea.form-control {
   }
 
   #home .home-top-panel-tel {
-    /*display: none;*/
     font-size: 2em;
+  }
+}
+
+@media (max-width: 410px) {
+  .copyright div {
+    display: block;
+  }
+
+  .copyright div.pipe {
+    display: none;
   }
 }
 
