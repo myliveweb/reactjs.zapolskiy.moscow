@@ -11,6 +11,12 @@
 
 	$(document).ready(function() {
 
+    setTimeout(()=>{
+      const myVideo = document.getElementById("vid");
+      myVideo.muted = true;
+      myVideo.play();
+    }, 100);
+
 		/* ---------------------------------------------- /*
 		 * Smooth scroll / Scroll To Top
 		/* ---------------------------------------------- */

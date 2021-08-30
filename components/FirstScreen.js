@@ -8,8 +8,9 @@ export default function FirstScreen() {
       <VideoStyled />
 	    <section id="home" className="pfblock-image screen-height">
         <div className="home-overlay"></div>
-        <div className="home-top-panel-ver"><a href="https://zapolskiy.moscow/">Монолит (Base JQuery)</a></div>
+        <div className="home-top-panel-ver"><a href="https://zapolskiy.moscow/">Laravel (Base JQuery)</a></div>
         <div className="home-top-panel-react">React.js (Base Next.js SSR)</div>
+        <div class="home-top-panel-angular"><a href="https://angular.zapolskiy.moscow/">Angular (Base Angular 12)</a></div>
         <div className="home-top-panel-tel">Тел: <b>+7 962 206-4142</b></div>
         <div className="main-face">
           <div id="mi_face"></div>

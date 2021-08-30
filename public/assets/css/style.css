@@ -793,6 +793,17 @@ textarea.form-control {
     text-align: center;
   }
 
+  #home .home-top-panel-angular {
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    width: 285px;
+    text-align: center;
+    cursor: pointer;
+  }
+
   #home .home-top-panel-tel {
     position: absolute;
     top: 30px;

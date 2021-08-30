@@ -8,7 +8,7 @@ const Footer = () => {
 
 				<div className="col-sm-12">
 
-          <p className="copyright">
+          <div className="copyright">
             <div>© 2014-2021 Сергей Запольский</div>
             <div className="pipe">|</div>
             <div>Skype: myliveweb</div>
@@ -16,7 +16,7 @@ const Footer = () => {
             <div>Почта: info@zapolskiy.moscow</div>
             <div className="pipe">|</div>
             <div>Тел: +7 962 206-4142</div>
-					</p>
+					</div>
 				</div>
 			</div>
 		</div>
