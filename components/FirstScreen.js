@@ -8,25 +8,33 @@ export default function FirstScreen() {
       <VideoStyled />
 	    <section id="home" className="pfblock-image screen-height">
         <div className="home-overlay"></div>
-        <div className="home-top-panel-ver"><a href="https://zapolskiy.moscow/">Laravel (Core JQuery)</a></div>
-        <div className="home-top-panel-react">React.js (Core Next.js SSR)</div>
-        <div className="home-top-panel-angular"><a href="https://angular.zapolskiy.moscow/">Angular (Core Angular 12)</a></div>
-        <div className="home-top-panel-tel">Тел: <b>+7 962 206-4142</b></div>
-        <div className="main-face">
-          <div id="mi_face"></div>
+        <div class="grid">
+          <div class="item item-1">
+            <div class="link"><a href="https://zapolskiy.moscow/">Laravel (Core JQuery)</a></div>
+            <div>React.js (Core Next.js SSR)</div>
+            <div class="link"><a href="https://angular.zapolskiy.moscow/">Angular (Core Angular 12)</a></div>
+          </div>
+          <div class="item item-2">
+            <div>Тел: <b>+7 962 206-4142</b></div>
+          </div>
+          <div class="item item-3">
+            <div id="mi-face"></div>
+            <div class="intro-new">
+            <div class="start">Сергей Запольский</div>
+            <h1>Разработка сайтов</h1>
+            <div class="start">Решения будущего сегодня</div>
+          </div>
+          </div>
+          <div class="item item-4">
+            <a href="#services">
+              <div class="scroll-down-new">
+                <span>
+                  <i class="fa fa-angle-down fa-2x"></i>
+                </span>
+              </div>
+            </a>
+          </div>
         </div>
-        <div className="intro">
-          <div className="start">Сергей Запольский</div>
-          <h1>РАЗРАБОТКА САЙТОВ</h1>
-          <div className="start">Решения будущего сегодня</div>
-        </div>
-        <a href="#services">
-		      <div className="scroll-down">
-            <span>
-                <i className="fa fa-angle-down fa-2x"></i>
-            </span>
-		      </div>
-        </a>
 	    </section>
     </>
   )
