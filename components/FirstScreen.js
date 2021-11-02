@@ -3,33 +3,33 @@ import { keyframes } from 'styled-components'
 import VideoStyled from './Video'
 
 export default function FirstScreen() {
+
   return (
     <>
       <VideoStyled />
 	    <section id="home" className="pfblock-image screen-height">
         <div className="home-overlay"></div>
-        <div class="grid">
-          <div class="item item-1">
-            <div class="link"><a href="https://zapolskiy.moscow/">Laravel (Core JQuery)</a></div>
-            <div>React.js (Core Next.js SSR)</div>
-            <div class="link"><a href="https://angular.zapolskiy.moscow/">Angular (Core Angular 12)</a></div>
+        <div className="grid">
+          <div className="item item-1">
+            <div className="link jquery"><a href="https://zapolskiy.moscow/">Laravel (Core JQuery)</a></div>
+            <div className="nextjs"><span>React.js (Core Next.js SSR)</span></div>
+            <div className="link angular"><a href="https://angular.zapolskiy.moscow/">Angular (Core Angular 12)</a></div>
           </div>
-          <div class="item item-2">
+          <div className="item item-2">
             <div>Тел: <b>+7 962 206-4142</b></div>
           </div>
-          <div class="item item-3">
+          <div className="item item-3">
             <div id="mi-face"></div>
-            <div class="intro-new">
-            <div class="start">Сергей Запольский</div>
+            <div className="intro-new">
             <h1>Разработка сайтов</h1>
-            <div class="start">Решения будущего сегодня</div>
+            <div className="start">Решения будущего сегодня</div>
           </div>
           </div>
-          <div class="item item-4">
+          <div className="item item-4">
             <a href="#services">
-              <div class="scroll-down-new">
+              <div className="scroll-down-new">
                 <span>
-                  <i class="fa fa-angle-down fa-2x"></i>
+                  <i className="fa fa-angle-down fa-2x"></i>
                 </span>
               </div>
             </a>

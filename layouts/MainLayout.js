@@ -40,6 +40,7 @@ export default function MainLayout({ children, title }) {
   <script src="assets/js/waypoints.min.js"></script>
   <script src="assets/js/jquery.cbpQTRotator.min.js"></script>
 	<script src="assets/js/custom.js"></script>
+  <script src="assets/js/fade.js"></script>
     </>
   )
 }

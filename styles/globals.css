@@ -561,8 +561,8 @@ h3 {
   }
 
 #home .grid {
-  display: grid;
   height: 100vh;
+  display: grid;
   grid-template-columns: minmax(290px, 1fr);
   justify-content: space-between;
   grid-gap: 15px;
@@ -573,12 +573,40 @@ h3 {
 }
 
 #home .grid .item-1 {
-  margin: 10px 10px 0 10px;
+  margin: 10px 10px 0 24px;
+  text-align: left;
+  justify-self: center;
 }
 
 #home .grid .item-1>div {
-  margin: 5px 10px;
+  margin: 5px 50px;
   color: white;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+#home .grid .item-1>div::before {
+  position: absolute;
+  left: -35px;
+  top: 5px;
+
+  width: 24px;
+  height: 24px;
+
+  content: '';
+  background-size: 24px 24px;
+}
+
+#home .grid .item-1>div.jquery::before {
+  background-image: url(../public/assets/images/ico/jquery.png);
+}
+
+#home .grid .item-1>div.nextjs::before {
+  background-image: url(../public/assets/images/ico/nextjs.png);
+}
+
+#home .grid .item-1>div.angular::before {
+  background-image: url(../public/assets/images/ico/angular.png);
 }
 
 #home .grid .item-2>div {
@@ -593,12 +621,19 @@ h3 {
   color: #e4ff00;
 }
 
+#home .grid .item-1>div span {
+  position: relative;
+  top: 3px;
+  border-bottom: 3px solid white;
+  padding-bottom: 2px;
+}
+
 #home .grid .item-1>div.link {
   margin-bottom: 12px;
 }
 
 #home .grid #mi-face {
-  background: url(../public/assets/images/y.jpg);
+  background: url(../public/assets/images/fade/y0.png);
   border-radius: 50%;
   width: 250px;
   height: 250px;
@@ -613,7 +648,7 @@ h3 {
 }
 
 #home .grid .intro-new h1 {
-  margin: 0.1em auto 0.2em auto;
+  margin: 0.8em auto 0.2em auto;
   font-weight: 800;
 }
 
@@ -690,15 +725,12 @@ h3 {
 
   #home .grid .item-1 {
     justify-self: start;
+    margin: 10px 10px 0 10px;
   }
 
   #home .grid .item-2 {
     justify-self: end;
-    margin: 10px 10px 0 10px;
-  }
-
-  #home .grid .item-2>div {
-    margin: 5px 10px;
+    margin: 10px 30px 0 10px;
   }
 
   .item-3 {
