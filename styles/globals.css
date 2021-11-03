@@ -684,6 +684,58 @@ h3 {
   animation-play-state: running;
 }
 
+#services .services-icon {
+  width: 64px;
+  height: 64px;
+}
+
+#services .services-contact-icon {
+  width: 24px;
+  height: 24px;
+}
+
+#services .contact-mail-ico {
+  margin-top: 8px;
+}
+
+#services .contact-phone-ico {
+  margin: 8px 0 9px 0;
+}
+
+#services .contact-skype-ico span {
+  position: relative;
+  top: 7px;
+  left: 8px;
+  font-weight: 800;
+}
+
+#services .contact-mail-ico span {
+  position: relative;
+  top: 5px;
+  left: 8px;
+  font-weight: 800;
+}
+
+#services .contact-phone-ico span {
+  position: relative;
+  top: 5px;
+  left: 8px;
+  font-weight: 800;
+}
+
+#portfolio .img-section,
+#skills .img-section,
+#contact .img-section {
+  margin-bottom: 20px;
+}
+
+#portfolio .img-section img,
+#skills .img-section img,
+#contact .img-section img {
+  width: 200px;
+  height: 200px;
+}
+
 @-webkit-keyframes drop {
   0% {
     top: 0px;

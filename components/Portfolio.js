@@ -10,9 +10,9 @@ const Portfolio = () => {
 
 					<div className="pfblock-header wow fadeInUp">
 						<h2 className="pfblock-title">Мои работы</h2>
-						<div className="pfblock-line"></div>
+						<div className="img-section"><img src="assets/images/tools/typescript.png" alt="Мои работы" title="Мои работы" /></div>
 						<div className="pfblock-subtitle">
-							Здесь показана только часть работ. Многие из них сданы по монитору качества. При нажатии перейдёте на рабочий сайт.
+							Здесь показана только часть работ.<br />При нажатии перейдёте на рабочий сайт.
 						</div>
 					</div>
 

@@ -10,7 +10,7 @@ const Contact = () => {
 
 					<div className="pfblock-header">
 						<h2 className="pfblock-title">Пишите</h2>
-						<div className="pfblock-line"></div>
+						<div className="img-section"><img src="assets/images/tools/mail-section.png" alt="Пишите" title="Пишите" /></div>
 						<div className="pfblock-subtitle">
 							Кратко опишите вашу задачу. Я обязательно свяжусь с вами.
 						</div>

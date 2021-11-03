@@ -14,7 +14,7 @@ const Skills = () => {
 
                             <div className="pfblock-header wow fadeInUp">
                                 <h2 className="pfblock-title">Навыки</h2>
-                                <div className="pfblock-line"></div>
+                                <div className="img-section"><img src="assets/images/tools/skils.png" alt="Навыки" title="Навыки" /></div>
                                 <div className="pfblock-subtitle">
                                   <b>JavaScript</b> - ES6+, TypeScript, Angular, React.js/Redux/Saga/Next, Vue.js/Vuex/Nuxt<br />
                                   <b>Мобильная разработка</b> - React Native, Flutter (Android, iPhone)<br />

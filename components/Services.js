@@ -28,10 +28,10 @@ export default function Services() {
 
             <div className="iconbox wow slideInLeft">
               <div className="iconbox-icon">
-                <span className="icon-puzzle"></span>
+                <img className="services-icon" src="assets/images/tools/00.png" alt="Web разработка" title="Web разработка" />
               </div>
               <div className="iconbox-text">
-                <h3 className="iconbox-title">Web программирование</h3>
+                <h3 className="iconbox-title">Web разработка</h3>
                 <div className="iconbox-desc">
                   Делаю интернет сайты, порталы, магазины, каталоги, промо.<br/>Сайты с нуля, модернизирую (оптимизирую), фантазирую, вулканизирую, идеализирую… , Совершенствую и ещё раз совершенствую.
                 </div>
@@ -44,10 +44,10 @@ export default function Services() {
 
             <div className="iconbox wow slideInLeft">
               <div className="iconbox-icon">
-                <span className="icon-magic-wand"></span>
+                <img className="services-icon" src="assets/images/tools/01.png" alt="UI/UX" title="UI/UX" />
               </div>
               <div className="iconbox-text">
-                <h3 className="iconbox-title">Web дизайн</h3>
+                <h3 className="iconbox-title">UI/UX</h3>
                 <div className="iconbox-desc">
                   Вёрстка, редизайн, интеграция компонентов. Кастомизация. Это всё моё. Могу воплотить в жизнь любое программное решение. Невыполнимых задач не бывает. Любые ваши идеи обсудим и сделаем.
                 </div>
@@ -60,7 +60,7 @@ export default function Services() {
 
             <div className="iconbox wow slideInRight">
               <div className="iconbox-icon">
-                <span className="icon-badge"></span>
+                <img className="services-icon" src="assets/images/tools/02.png" alt="Сопровождение" title="Сопровождение" />
               </div>
               <div className="iconbox-text">
                 <h3 className="iconbox-title">Сопровождение</h3>
@@ -76,17 +76,21 @@ export default function Services() {
 
             <div className="iconbox wow slideInRight">
               <div className="iconbox-icon">
-                <span className="icon-question"></span>
+                <img className="services-icon" src="assets/images/tools/03.png" alt="Вопросы" title="Вопросы" />
               </div>
               <div className="iconbox-text">
                 <h3 className="iconbox-title">Есть вопросы?</h3>
                 <div className="iconbox-desc">
-                  С удовольствием всем отвечу.<br />Пишите звоните:<br /><br /><div style={{textAlign:'left'}}>Skype: <b>myliveweb</b><br />Почта: <b>info@zapolskiy.moscow</b><br />Тел: <b>+7 962 206-4142</b><br /></div><br />
+                  С удовольствием всем отвечу.<br />Пишите, звоните:<br /><br />
+                  <div style={{textAlign: 'left'}}>
+                    <div className="contact-skype-ico"><img className="services-contact-icon" src="assets/images/tools/skype.png" alt="Skype" title="Skype" /><span>myliveweb</span></div>
+                    <div className="contact-mail-ico"><img className="services-contact-icon" src="assets/images/tools/mail.png" alt="E-Mail" title="E-Mail" /><span>info@zapolskiy.moscow</span></div>
+                    <div className="contact-phone-ico"><img className="services-contact-icon" src="assets/images/tools/phone.png" alt="Телефон" title="Телефон" /><span>+7 962 206-4142</span></div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
