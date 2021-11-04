@@ -22,7 +22,7 @@ export default function FirstScreen() {
             <div id="mi-face"></div>
             <div className="intro-new">
             <h1>Разработка сайтов</h1>
-            <div className="start">Решения будущего сегодня</div>
+            <div className="start">Просто сделай это</div>
           </div>
           </div>
           <div className="item item-4">
