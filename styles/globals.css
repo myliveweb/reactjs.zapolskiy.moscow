@@ -609,6 +609,10 @@ h3 {
   background-image: url(../public/assets/images/ico/angular.png);
 }
 
+#home .grid .item-1>div.nuxt::before {
+  background-image: url(../public/assets/images/ico/nuxt.png);
+}
+
 #home .grid .item-2>div {
   color: white;
   font-size: 1.7em;
