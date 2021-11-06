@@ -12,9 +12,10 @@ export default function FirstScreen() {
         <div className="grid">
           <div className="item item-1">
             <div className="link jquery"><a href="https://zapolskiy.moscow/">Laravel (Core JQuery)</a></div>
-            <div className="nextjs"><span>React.js (Core Next.js SSR)</span></div>
+            <div className="link react"><a href="https://react.zapolskiy.moscow/">React.js (Core React.js)</a></div>
+            <div className="link nuxt"><a href="https://nuxt.zapolskiy.moscow/">Vue.js (Core Nuxt.js SSR)</a></div>            
             <div className="link angular"><a href="https://angular.zapolskiy.moscow/">Angular (Core Angular 12)</a></div>
-            <div className="link nuxt"><a href="https://nuxt.zapolskiy.moscow/">Vue.js (Core Nuxt.js SSR)</a></div>
+            <div className="nextjs"><span>React.js (Core Next.js SSR)</span></div>
           </div>
           <div className="item item-2">
             <div>Тел: <b>+7 962 206-4142</b></div>
